@@ -8,7 +8,7 @@ This small application allows you to enter guests into your Fellowship One datab
 
 Data validation should be added.
 
-Password protection should also be added.  This could be done with inFellowship credentials.  See this github repository for an example on doing authentication with our API:[https://github.com/tracymazelin/F1SingleSignOn](https://github.com/tracymazelin/F1SingleSignOn).
+Password protection should also be added.  This could be done with inFellowship credentials.  See this github repository for an example on doing authentication with our API: [https://github.com/tracymazelin/F1SingleSignOn](https://github.com/tracymazelin/F1SingleSignOn).
 
 One household is created with the creation of each person.  If additional members of the same household need to be added this script should be altered to write new individuals to the newly created householdID.
 
