@@ -93,7 +93,7 @@ require('FellowshipOne.php');
 	//Check if a file was uploaded and move it out of the temp directory then write it to F1
 
 	if ($_FILES['image']['name']){
-		define('UPLOAD_DIR', '/Users/tmazelin/file_uploads/');
+		define('UPLOAD_DIR', '/path/to/directory/');
 		move_uploaded_file($_FILES['image']['tmp_name'], UPLOAD_DIR.$_FILES['image']['name']);
 		$imageStr = file_get_contents(UPLOAD_DIR.$_FILES['image']['name']);
 		$r = $f1->createImage($imageStr, $personID);
